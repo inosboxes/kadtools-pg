@@ -19,4 +19,8 @@ describe('"index" module exports', function() {
     let seed = module.createNode(testNet.seeds[0]);
     expect(seed).to.be.instanceOf(Object);
   });
+  it('should be able to return initiate kad peer nodes from Test Network identities.', function() {
+    let node = module.createNode(testNet.nodes[0]);
+    expect(node).to.be.instanceOf(Object);
+  });
 });
