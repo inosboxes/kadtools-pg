@@ -7,6 +7,9 @@ yarn-error.log*
 
 dummyfile.txt
 .yo-rc.json
+resources/fs-storage/*.json
+resources/db-storage/Node-*
+resources/db-storage/Seed-*
 
 # Runtime data
 pids
